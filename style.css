@@ -1,0 +1,18 @@
+h1{
+    font-size: 35px !important;
+}
+
+.btn-success:hover{
+    background-color: yellowgreen;
+}
+
+canvas{
+    animation-name: Chaning-Effect;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Changing-Effect{
+    from{box-shadow: 1px 1px 30px yellow;} 
+    to{box-shadow: 1px 1px 30px red;}
+}
